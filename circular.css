@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+ul{
+	list-style:none;
+	height: 30px;	
+	border-bottom: 5px solid #f60;	 /*  在导航栏下面生成一条橙红色的线*/
+	padding-left:50px;
+	margin-top: 20px;
+}
+li{
+	float: left;
+}
+a{
+	text-decoration: none;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	width: 120px;
+	margin-bottom: 1px;
+	text-align: center;
+	background-color: #ccc;
+	background: url(img/btnBg.png)
+}
+.on,a:hover{
+	color: #fff;
+	background-position:0 -30px;  /* 鼠标点击时图片的位置 */
+}

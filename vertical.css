@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}/**清除格式*/
+ul{
+	/**list-style:none;/**ul列表前不设置任何标志*/
+	width: 100px; 
+}
+li{
+	height: 30px;
+	line-height: 30px;/**行高*/
+	width: 100px;
+	background-color: #ccc;
+	margin-bottom: 1px;/**下外边距*/
+	/**padding-left: 10px;/**将文字向右移动10px,但是这样会影响整个菜单的宽度，会将这个整体加10px*/
+	text-indent: 15px;/**内容缩进，只影响文本，不会影响整体的宽度*/
+
+}
+
+a{
+	text-decoration: none;/**去掉文字上的任何格式*/
+	display: block; /**将a标签变成一个块状的元素,使点击这个块时这个整体都变色。而不是只有字变色*/
+	
+}
+a:hover
+{
+	background-color: #f60;
+	color: #fff;/**将文字颜色改成白色*/
+}
